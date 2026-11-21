@@ -1,0 +1,31 @@
+{
+  "scope": "Source terrain mesh diagnostic; CPU orthographic rasterization, not a WebGL screenshot or performance benchmark. Scene textures, units, horizon decorations and game pixel postprocess are omitted. Expanded mesh copies include instanced pebbles; triangles are cropped to review bounds.",
+  "reviewRounds": 2,
+  "maps": [
+    {
+      "id": "tranquility",
+      "meshes": 230,
+      "triangles": 58090,
+      "obstacles": 12
+    },
+    {
+      "id": "craters",
+      "meshes": 402,
+      "triangles": 61830,
+      "obstacles": 33
+    },
+    {
+      "id": "relay",
+      "meshes": 563,
+      "triangles": 70961,
+      "obstacles": 65
+    },
+    {
+      "id": "bastion",
+      "meshes": 598,
+      "triangles": 65344,
+      "obstacles": 82
+    }
+  ],
+  "runtimeVisualLimit": "Chrome exits at startup in the managed environment. Blender GUI-free rendering also exits before executing the render script. No real browser combat screenshots or frame-time measurements obtained."
+}

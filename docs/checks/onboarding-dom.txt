@@ -1,0 +1,22 @@
+PASS loading waits for two paint frames and exposes a translated recovery state
+PASS loading exit ignores child transitions and completes on its own fallback
+PASS reduced motion skips the loading fade without waiting for a transition event
+PASS en: real initialization completes before the guide appears, with no starter army or purchase
+PASS en: selection and cancellation are free; invalid placement neither advances nor spends
+PASS en: selecting or dragging to an illegal spot cannot falsely finish positioning
+PASS en: a valid drag follows the unit, orders complete the guide, and finish never starts battle
+PASS en: help replays in place, live language changes preserve the step, and current settings can be kept
+PASS en: closing or Escape skips completely, with no surprise reopen or extra purchase
+PASS en: help suspends and resumes; deleting the only unit resets to selection and refunds normally
+PASS en: every step has a working close button, and explicit battle start closes a replay
+PASS en: a fresh page starts again with the tutorial, no retained progress and no storage
+PASS pt-BR: real initialization completes before the guide appears, with no starter army or purchase
+PASS pt-BR: selection and cancellation are free; invalid placement neither advances nor spends
+PASS pt-BR: selecting or dragging to an illegal spot cannot falsely finish positioning
+PASS pt-BR: a valid drag follows the unit, orders complete the guide, and finish never starts battle
+PASS pt-BR: help replays in place, live language changes preserve the step, and current settings can be kept
+PASS pt-BR: closing or Escape skips completely, with no surprise reopen or extra purchase
+PASS pt-BR: help suspends and resumes; deleting the only unit resets to selection and refunds normally
+PASS pt-BR: every step has a working close button, and explicit battle start closes a replay
+PASS pt-BR: a fresh page starts again with the tutorial, no retained progress and no storage
+21 onboarding DOM flows passed; zero browser storage access; WebGL and audio stubbed.

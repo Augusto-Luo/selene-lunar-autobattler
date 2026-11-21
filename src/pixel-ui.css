@@ -1,0 +1,185 @@
+html.pixel-art {
+  --bg: #080711;
+  --panel: #100e1a;
+  --panel-raised: #191527;
+  --line: #41344f;
+  --line-soft: #2b2339;
+  --text: #f0e6cf;
+  --muted: #b9adba;
+  --faint: #9a8fa2;
+  --amber: #f0b55f;
+  --amber-dark: #a56c3f;
+  --cyan: #71d7d3;
+  --red: #e47761;
+  --green: #87cda1;
+}
+
+html.pixel-art body { background: var(--bg); color: var(--text); }
+html.pixel-art .topbar,
+html.pixel-art .actionbar,
+html.pixel-art .editor-header,
+html.pixel-art .editor-footer { background: #0d0b16; }
+html.pixel-art .topbar { box-shadow: 0 3px 0 #05040a; }
+html.pixel-art .actionbar,
+html.pixel-art .editor-footer { box-shadow: 0 -3px 0 #05040a; }
+html.pixel-art .side-panel,
+html.pixel-art .editor-toolbox,
+html.pixel-art .editor-inspector { background: var(--panel); }
+html.pixel-art .roster-panel,
+html.pixel-art .editor-toolbox { box-shadow: 3px 0 0 #07060d; }
+html.pixel-art .inspector { box-shadow: -3px 0 0 #07060d; }
+
+html.pixel-art .brand-name,
+html.pixel-art .editor-brand strong {
+  font-family: "Courier New", Consolas, monospace;
+  font-weight: 900;
+  letter-spacing: .25em;
+  text-shadow: 2px 2px 0 #563245;
+}
+html.pixel-art .brand-mark {
+  border-width: 2px;
+  box-shadow: 3px 3px 0 #4a2c40;
+}
+html.pixel-art .brand-mark::before { border-width: 2px; }
+html.pixel-art .brand-sub { color: var(--muted); }
+html.pixel-art .mission-title { color: #f3e9d2; text-shadow: 1px 1px 0 #513244; }
+html.pixel-art .mission-tab { color: #c2b6c5; background: #191522; font-weight: 700; }
+html.pixel-art .mission-tab:hover { color: #ffe0a0; background: #2b2030; }
+html.pixel-art .mission-tab.active { color: #211426; background: var(--amber); }
+html.pixel-art .phase-chip { color: var(--muted); }
+html.pixel-art .phase-chip::before { box-shadow: 2px 2px 0 #173d43; }
+html.pixel-art .phase-chip.battle::before { box-shadow: 2px 2px 0 #4d2028; }
+html.pixel-art .status-label { color: var(--faint); font-size: 11px; }
+html.pixel-art .status-value { color: #f4e9ce; }
+
+html.pixel-art .panel-header { background: #13101e; }
+html.pixel-art .eyebrow { color: #f2b969; }
+html.pixel-art .panel-title,
+html.pixel-art .selected-name { color: #f4ead4; }
+html.pixel-art .panel-subtitle,
+html.pixel-art .unit-description,
+html.pixel-art .mission-brief p { color: #b9adba; }
+html.pixel-art .budget-track { height: 3px; background: #33273e; }
+html.pixel-art .budget-track > span { background: #f0b55f; box-shadow: 2px 0 0 #ffe0a0; }
+
+html.pixel-art .unit-card {
+  border-radius: 0;
+  border-color: #382d47;
+  background: #181422;
+  box-shadow: 3px 3px 0 #08070e;
+  transition: border-color 100ms steps(2, end), background 100ms steps(2, end), transform 100ms steps(2, end), box-shadow 100ms steps(2, end);
+}
+html.pixel-art .unit-card:hover {
+  border-color: #a56c3f;
+  background: #211a29;
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #08070e;
+}
+html.pixel-art .unit-card.active {
+  border-color: #f0b55f;
+  background: #352532;
+  box-shadow: 3px 3px 0 #613b3f;
+}
+html.pixel-art .unit-card:active { transform: translate(2px, 2px); box-shadow: 1px 1px 0 #08070e; }
+html.pixel-art .unit-card-thumb {
+  image-rendering: pixelated;
+  background: #14111f;
+  border-bottom-color: #41344f;
+}
+html.pixel-art .unit-card-code { color: #b7a9bd; background: #100d18e8; font-size: 10px; }
+html.pixel-art .unit-card-cost { color: #ffd18a; background: #100d18e8; }
+html.pixel-art .unit-card-role { color: #b9adba; font-size: 12px; }
+html.pixel-art .roster-footer { color: #b9adba; font-size: 13px; line-height: 1.55; }
+html.pixel-art .roster-footer strong { color: #f0e6cf; }
+
+html.pixel-art .viewport { background: #03030a; }
+html.pixel-art .viewport::after { box-shadow: inset 0 0 0 1px #171221; }
+html.pixel-art .tool-group {
+  background: #100d19f2;
+  border-color: #4a3b55;
+  box-shadow: 3px 3px 0 #03030a99;
+}
+html.pixel-art .tool-button { color: #b9adba; border-right-color: #382d47; }
+html.pixel-art .tool-button:hover { color: #f0e6cf; background: #2b2133; }
+html.pixel-art .tool-button.active { color: #211426; background: #f0b55f; }
+html.pixel-art .camera-tools .tool-button.active { color: #ffd18a; background: #3a2934; }
+html.pixel-art .terrain-readout {
+  padding: 9px 11px;
+  border: 1px solid #49616b;
+  background: #0d0c16ed;
+  color: #c5d5d2;
+  font-size: 13px;
+  box-shadow: 3px 3px 0 #03030a80;
+}
+html.pixel-art .control-hint { color: #c5bdcb; background: #0d0c16e8; font-size: 12px; }
+html.pixel-art .deployment-banner { color: #f0e6cf; text-shadow: 2px 2px 0 #03030a; }
+html.pixel-art .unit-label { filter: none; }
+html.pixel-art .unit-label-name { color: #b7f0e9; background: #0b1114ed; border: 1px solid #27515a; }
+html.pixel-art .unit-label.enemy .unit-label-name { color: #ffc0a6; border-color: #6b3538; }
+html.pixel-art .unit-label.selected .unit-label-name { color: #ffe09a; border-color: #a56c3f; }
+html.pixel-art .unit-hp { height: 4px; background: #171221; border: 1px solid #0b0911; }
+
+html.pixel-art .secondary-button,
+html.pixel-art .order-button,
+html.pixel-art .editor-tool-switch button,
+html.pixel-art .editor-feature-choice,
+html.pixel-art .editor-unit-choice {
+  border-radius: 0;
+  border-color: #45374f;
+  background: #191522;
+  color: #c7bdc9;
+  box-shadow: 2px 2px 0 #08070e;
+}
+html.pixel-art .secondary-button:hover,
+html.pixel-art .order-button:hover,
+html.pixel-art .editor-tool-switch button:hover,
+html.pixel-art .editor-feature-choice:hover,
+html.pixel-art .editor-unit-choice:hover { border-color: #a56c3f; color: #f0e6cf; background: #28202e; }
+html.pixel-art .order-button.active,
+html.pixel-art .editor-tool-switch button.active,
+html.pixel-art .editor-feature-choice.active,
+html.pixel-art .editor-unit-choice.active { color: #ffd18a; border-color: #f0b55f; background: #3a2934; }
+html.pixel-art .primary-button {
+  border: 2px solid #ffe0a0;
+  background: #f0b55f;
+  color: #211426;
+  filter: drop-shadow(4px 4px 0 #563245);
+  transition: filter 100ms steps(2, end), transform 100ms steps(2, end);
+}
+html.pixel-art .primary-button:hover { filter: brightness(1.12) drop-shadow(4px 4px 0 #563245); }
+html.pixel-art .primary-button:active { transform: translate(3px, 3px); filter: drop-shadow(1px 1px 0 #563245); }
+html.pixel-art .speed-group { border-color: #45374f; box-shadow: 2px 2px 0 #08070e; }
+html.pixel-art .speed-button { background: #191522; color: #b9adba; }
+html.pixel-art .speed-button.active { color: #ffd18a; background: #3a2934; }
+
+html.pixel-art .stat,
+html.pixel-art .stat-grid { border-color: #41344f; }
+html.pixel-art .stat { background: #14111e; }
+html.pixel-art .stat-label { color: #a99cad; }
+html.pixel-art .stat-value { color: #f0e6cf; }
+html.pixel-art .terrain-effect { border: 1px solid #365863; background: #17242c; color: #b9d7d5; }
+html.pixel-art .command-card { background: #100e1a; }
+html.pixel-art .command-portrait,
+html.pixel-art .editor-unit-choice img,
+html.pixel-art .editor-selected-portrait { image-rendering: pixelated; }
+html.pixel-art .command-portrait { background: #14111f; border-color: #4a3b55; }
+html.pixel-art kbd { border-radius: 0; border-color: #51405c; background: #211a2b; color: #f0e6cf; box-shadow: 2px 2px 0 #08070e; }
+html.pixel-art .toast { border-radius: 0; border-color: #a56c3f; background: #2b1d29f5; color: #ffe0a0; box-shadow: 4px 4px 0 #03030a99; }
+html.pixel-art .modal-backdrop { background: #03030adb; backdrop-filter: none; }
+html.pixel-art .modal { border: 2px solid #5a435d; border-top-color: #f0b55f; background: #14111f; box-shadow: 8px 8px 0 #03030acc; }
+html.pixel-art .result-stat strong { color: #ffd18a; }
+
+html.pixel-art .editor-tabs button.active { color: #ffd18a; background: #2a2030; box-shadow: inset 0 -3px #f0b55f; }
+html.pixel-art .editor-app input:not([type="checkbox"]),
+html.pixel-art .editor-app select { border-radius: 0; border-color: #51405c; background: #0e0b17; color: #f0e6cf; }
+html.pixel-art .editor-entity.active { color: #ffd18a; background: #3a2934; }
+html.pixel-art .editor-entry { border-width: 2px; color: #ffd18a; background: #211826; box-shadow: 2px 2px 0 #563245; }
+html.pixel-art .editor-entry:hover { background: #3a2934; }
+html.pixel-art .editor-selected-portrait { background: #14111f; border: 1px solid #41344f; }
+html.pixel-art .editor-map-caption { color: #f0e6cf; text-shadow: 2px 2px 0 #03030a; }
+
+html.pixel-art ::selection { color: #211426; background: #f0b55f; }
+
+@media (max-width: 1100px) {
+  html.pixel-art .mission-number { display: none; }
+}

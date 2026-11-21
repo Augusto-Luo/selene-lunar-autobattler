@@ -1,0 +1,23 @@
+.tutorial-layer { position: fixed; inset: 0; z-index: 44; pointer-events: none; }
+.tutorial-layer[hidden], .tutorial-layer [hidden] { display: none !important; }
+.tutorial-spotlight { position: absolute; left: 0; top: 0; border: 2px solid var(--cyan); box-shadow: 0 0 0 9999px #08071144, 0 0 0 4px #71d7d322; transition: transform 180ms ease-out, width 180ms ease-out, height 180ms ease-out; }
+.tutorial-point-target .tutorial-spotlight { border-style: dashed; }
+.tutorial-pin { display: none; position: absolute; left: 50%; top: 50%; width: 8px; height: 8px; margin: -4px; background: var(--cyan); box-shadow: 0 0 0 6px #71d7d333; animation: tutorial-beacon 1.6s steps(2, end) infinite; }
+.tutorial-point-target .tutorial-pin { display: block; }
+.tutorial-anchor { position: absolute; left: 0; top: 0; width: min(292px, calc(100vw - 24px)); transition: transform 180ms ease-out; pointer-events: auto; }
+.tutorial-card { border: 2px solid var(--cyan); background: var(--panel-raised); color: var(--text); padding: 13px 16px 18px; box-shadow: 5px 5px 0 #05040acc; animation: tutorial-arrive 180ms ease-out both; max-height: calc(100dvh - 24px); overflow-y: auto; }
+.tutorial-card header { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin: -6px -8px 4px 0; }
+.tutorial-counter { font: 12px/1.4 Consolas, monospace; color: var(--cyan); }
+.tutorial-close { width: 36px; height: 36px; border: 0; background: transparent; color: var(--muted); font: 24px/1 system-ui, sans-serif; cursor: pointer; flex-shrink: 0; }
+.tutorial-close:hover { color: var(--text); background: #ffffff0a; }
+.tutorial-card h2 { margin: 0 0 9px; font-size: 17px; line-height: 1.35; letter-spacing: .01em; }
+.tutorial-card p { margin: 0; color: var(--text); font-size: 13px; line-height: 1.65; }
+.tutorial-card .tutorial-next { display: block; height: auto; min-height: 36px; padding: 8px 12px; margin-top: 15px; width: 100%; white-space: normal; font-size: 13px; }
+.tutorial-close:active, .tutorial-next:active { transform: translateY(2px); }
+.tutorial-card button:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
+@keyframes tutorial-arrive { from { opacity: 0; transform: translateY(-8px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes tutorial-beacon { 0%, 100% { opacity: 1; } 50% { opacity: .45; } }
+@media (prefers-reduced-motion: reduce) {
+  .tutorial-card, .tutorial-pin { animation: none; }
+  .tutorial-spotlight, .tutorial-anchor { transition: none; }
+}

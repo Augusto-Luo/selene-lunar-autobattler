@@ -1,0 +1,56 @@
+$ npm run test:maps
+> selene-lunar-autobattler@1.0.0 test:maps
+> node scripts/test-maps.mjs
+
+PASS campaign maps have four different deployment geometries and tactical entry choices
+PASS large footprints cannot straddle crater deployment edges or the relay concave corner
+PASS the displayed deployment grid is clipped to the same legal polygons
+PASS deployment exclusions do not become invisible movement walls after battle starts
+PASS every unit class can be relocated from a previous map to legal non-overlapping ground
+PASS fortress yard and industrial roads are level engineered surfaces without inherited hills
+PASS all five fortress assault directions have safe routes into the courtyard for their unit footprints
+PASS new industrial buildings block their corners and route units safely around the full footprint
+PASS custom editor missions retain their own full-width deployment rule
+9 campaign map checks passed
+
+$ node [local verification workspace]
+PASS en: public game has only two languages, an empty first stage and a refresh notice
+PASS en: purchases and refunds work without touching persistent storage
+PASS en: four stages carry funds and fully healed survivors in memory without storage
+PASS en: a fresh page discards completed progress and starts a new fully funded campaign
+PASS en: editor has no save button and clearly identifies page-only edits
+PASS en: editing, locale switching and trial combat do not persist a draft
+PASS en: refreshing the editor does not restore the old draft
+PASS pt-BR: public game has only two languages, an empty first stage and a refresh notice
+PASS pt-BR: purchases and refunds work without touching persistent storage
+PASS pt-BR: four stages carry funds and fully healed survivors in memory without storage
+PASS pt-BR: a fresh page discards completed progress and starts a new fully funded campaign
+PASS pt-BR: editor has no save button and clearly identifies page-only edits
+PASS pt-BR: editing, locale switching and trial combat do not persist a draft
+PASS pt-BR: refreshing the editor does not restore the old draft
+PASS a Chinese URL cannot enable Chinese in the public package
+15 public DOM flows passed with zero browser storage access; WebGL rendering and audio stubbed.
+
+$ node [local verification workspace]
+PASS loading waits for two paint frames and exposes a translated recovery state
+PASS loading exit ignores child transitions and completes on its own fallback
+PASS reduced motion skips the loading fade without waiting for a transition event
+PASS en: real initialization completes before the guide appears, with no starter army or purchase
+PASS en: selection and cancellation are free; invalid placement neither advances nor spends
+PASS en: selecting or dragging to an illegal spot cannot falsely finish positioning
+PASS en: a valid drag follows the unit, orders complete the guide, and finish never starts battle
+PASS en: help replays in place, live language changes preserve the step, and current settings can be kept
+PASS en: closing or Escape skips completely, with no surprise reopen or extra purchase
+PASS en: help suspends and resumes; deleting the only unit resets to selection and refunds normally
+PASS en: every step has a working close button, and explicit battle start closes a replay
+PASS en: a fresh page starts again with the tutorial, no retained progress and no storage
+PASS pt-BR: real initialization completes before the guide appears, with no starter army or purchase
+PASS pt-BR: selection and cancellation are free; invalid placement neither advances nor spends
+PASS pt-BR: selecting or dragging to an illegal spot cannot falsely finish positioning
+PASS pt-BR: a valid drag follows the unit, orders complete the guide, and finish never starts battle
+PASS pt-BR: help replays in place, live language changes preserve the step, and current settings can be kept
+PASS pt-BR: closing or Escape skips completely, with no surprise reopen or extra purchase
+PASS pt-BR: help suspends and resumes; deleting the only unit resets to selection and refunds normally
+PASS pt-BR: every step has a working close button, and explicit battle start closes a replay
+PASS pt-BR: a fresh page starts again with the tutorial, no retained progress and no storage
+21 onboarding DOM flows passed; zero browser storage access; WebGL and audio stubbed.

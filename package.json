@@ -1,0 +1,39 @@
+{
+  "name": "selene-lunar-autobattler",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build",
+    "build:public": "tsc --noEmit && vite build --mode public --outDir dist-public",
+    "test:public": "node scripts/test-public.mjs",
+    "test:onboarding": "node scripts/test-onboarding.mjs",
+    "test:maps": "node scripts/test-maps.mjs",
+    "build:offline": "npm run build && node scripts/build-offline.mjs",
+    "test:editor": "node scripts/test-editor.mjs",
+    "test:campaign": "node scripts/test-campaign.mjs",
+    "test:navigation": "node scripts/test-navigation.mjs",
+    "test:i18n": "node scripts/test-i18n.mjs",
+    "test:battle": "node scripts/test-battle.mjs",
+    "analyze:economy": "node scripts/analyze-economy.mjs",
+    "analyze:campaign": "node scripts/analyze-campaign.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "dev:public": "vite --mode public --host 0.0.0.0",
+    "check": "tsc --noEmit",
+    "test": "node scripts/run-tests.mjs",
+    "package:github": "python3 scripts/package-github.py"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "0.186.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.4"
+  },
+  "description": "A pixel-art lunar tactical autobattler with a four-mission campaign and a built-in level editor.",
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

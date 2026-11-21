@@ -1,0 +1,1279 @@
+{
+  "methodology": "Real 30 Hz combat; one shared fund, no stage income, only survivors heal and carry over. A scripted reference strategy fills editor reference formations using veterans first, then buys missing roles. No retry or player intervention. Results are simulated strategy performance, not human win rates.",
+  "startingFunds": 140,
+  "samples": 24,
+  "summary": {
+    "completed": 24,
+    "lowestClearCost": 103,
+    "highestClearCost": 133,
+    "stageWins": [
+      {
+        "mission": "tranquility",
+        "wins": 24
+      },
+      {
+        "mission": "craters",
+        "wins": 24
+      },
+      {
+        "mission": "relay",
+        "wins": 24
+      },
+      {
+        "mission": "bastion",
+        "wins": 24
+      }
+    ],
+    "idleTimeouts": 0
+  },
+  "runs": [
+    {
+      "seed": 1009,
+      "complete": true,
+      "spent": 110,
+      "remaining": 30,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.500000000000377,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 13,
+          "time": 24.366666666667037,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 81,
+          "funds": 59,
+          "recruited": 4,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 33.600000000000655,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 110,
+          "funds": 30,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 11,
+          "time": 63.19999999999897,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 8928,
+      "complete": true,
+      "spent": 118,
+      "remaining": 22,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.46666666666704,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 12,
+          "time": 26.833333333333826,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 89,
+          "funds": 51,
+          "recruited": 5,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 33.333333333334004,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 118,
+          "funds": 22,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 14,
+          "time": 60.033333333332486,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 16847,
+      "complete": true,
+      "spent": 110,
+      "remaining": 30,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 23.833333333333677,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 13,
+          "time": 24.3333333333337,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 81,
+          "funds": 59,
+          "recruited": 4,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 30.700000000000685,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 110,
+          "funds": 30,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 13,
+          "time": 62.099999999999035,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 24766,
+      "complete": true,
+      "spent": 110,
+      "remaining": 30,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 23.833333333333677,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 13,
+          "time": 24.3333333333337,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 81,
+          "funds": 59,
+          "recruited": 4,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 32.50000000000072,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 110,
+          "funds": 30,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 14,
+          "time": 63.39999999999896,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 32685,
+      "complete": true,
+      "spent": 114,
+      "remaining": 26,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.40000000000037,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 12,
+          "time": 25.566666666667096,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 85,
+          "funds": 55,
+          "recruited": 5,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 32.13333333333407,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 114,
+          "funds": 26,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 11,
+          "time": 65.63333333333217,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 40604,
+      "complete": true,
+      "spent": 114,
+      "remaining": 26,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.766666666667057,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 12,
+          "time": 26.700000000000486,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 85,
+          "funds": 55,
+          "recruited": 5,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 30.86666666666736,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 114,
+          "funds": 26,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 13,
+          "time": 65.36666666666552,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 48523,
+      "complete": true,
+      "spent": 110,
+      "remaining": 30,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 25.06666666666707,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 13,
+          "time": 24.86666666666706,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 81,
+          "funds": 59,
+          "recruited": 4,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 32.63333333333404,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 110,
+          "funds": 30,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 10,
+          "time": 62.1666666666657,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 56442,
+      "complete": true,
+      "spent": 126,
+      "remaining": 14,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.66666666666705,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 10,
+          "time": 32.56666666666738,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 97,
+          "funds": 43,
+          "recruited": 7,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 29.233333333333945,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 126,
+          "funds": 14,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 10,
+          "time": 62.799999999998995,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 64361,
+      "complete": true,
+      "spent": 114,
+      "remaining": 26,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.66666666666705,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 12,
+          "time": 26.40000000000047,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 85,
+          "funds": 55,
+          "recruited": 5,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 32.666666666667375,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 114,
+          "funds": 26,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 14,
+          "time": 64.79999999999889,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 72280,
+      "complete": true,
+      "spent": 122,
+      "remaining": 18,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.73333333333372,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 11,
+          "time": 29.566666666667295,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 93,
+          "funds": 47,
+          "recruited": 6,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 34.066666666667295,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 122,
+          "funds": 18,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 15,
+          "time": 60.13333333333248,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 80199,
+      "complete": true,
+      "spent": 125,
+      "remaining": 15,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.166666666667027,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 11,
+          "time": 30.700000000000685,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 93,
+          "funds": 47,
+          "recruited": 6,
+          "deployed": 17,
+          "survivors": 12,
+          "time": 35.36666666666722,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 125,
+          "funds": 15,
+          "recruited": 8,
+          "deployed": 20,
+          "survivors": 13,
+          "time": 57.4999999999993,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 88118,
+      "complete": true,
+      "spent": 103,
+      "remaining": 37,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 8,
+          "time": 20.400000000000173,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 58,
+          "funds": 82,
+          "recruited": 6,
+          "deployed": 14,
+          "survivors": 13,
+          "time": 24.93333333333373,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 74,
+          "funds": 66,
+          "recruited": 4,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 32.36666666666739,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 103,
+          "funds": 37,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 13,
+          "time": 64.63333333333223,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 96037,
+      "complete": true,
+      "spent": 103,
+      "remaining": 37,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 8,
+          "time": 20.333333333333503,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 58,
+          "funds": 82,
+          "recruited": 6,
+          "deployed": 14,
+          "survivors": 13,
+          "time": 27.13333333333384,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 74,
+          "funds": 66,
+          "recruited": 4,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 32.933333333334026,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 103,
+          "funds": 37,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 12,
+          "time": 65.46666666666552,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 103956,
+      "complete": true,
+      "spent": 122,
+      "remaining": 18,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.900000000000396,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 11,
+          "time": 27.0000000000005,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 93,
+          "funds": 47,
+          "recruited": 6,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 34.70000000000059,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 122,
+          "funds": 18,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 14,
+          "time": 65.6666666666655,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 111875,
+      "complete": true,
+      "spent": 133,
+      "remaining": 7,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.300000000000367,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 8,
+          "time": 32.40000000000072,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 104,
+          "funds": 36,
+          "recruited": 9,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 33.366666666667335,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 133,
+          "funds": 7,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 14,
+          "time": 62.46666666666568,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 119794,
+      "complete": true,
+      "spent": 122,
+      "remaining": 18,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 8,
+          "time": 20.466666666666843,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 58,
+          "funds": 82,
+          "recruited": 6,
+          "deployed": 14,
+          "survivors": 9,
+          "time": 31.300000000000715,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 93,
+          "funds": 47,
+          "recruited": 8,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 33.30000000000067,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 122,
+          "funds": 18,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 12,
+          "time": 68.66666666666534,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 127713,
+      "complete": true,
+      "spent": 114,
+      "remaining": 26,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 8,
+          "time": 15.899999999999954,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 58,
+          "funds": 82,
+          "recruited": 6,
+          "deployed": 14,
+          "survivors": 12,
+          "time": 26.86666666666716,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 82,
+          "funds": 58,
+          "recruited": 5,
+          "deployed": 17,
+          "survivors": 12,
+          "time": 33.23333333333401,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 114,
+          "funds": 26,
+          "recruited": 8,
+          "deployed": 20,
+          "survivors": 10,
+          "time": 62.86666666666566,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 135632,
+      "complete": true,
+      "spent": 122,
+      "remaining": 18,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 8,
+          "time": 16.69999999999999,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 58,
+          "funds": 82,
+          "recruited": 6,
+          "deployed": 14,
+          "survivors": 10,
+          "time": 27.766666666667206,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 93,
+          "funds": 47,
+          "recruited": 7,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 31.433333333334055,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 122,
+          "funds": 18,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 12,
+          "time": 60.733333333332446,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 143551,
+      "complete": true,
+      "spent": 110,
+      "remaining": 30,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.500000000000377,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 13,
+          "time": 24.3333333333337,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 81,
+          "funds": 59,
+          "recruited": 4,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 30.20000000000066,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 110,
+          "funds": 30,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 13,
+          "time": 64.89999999999888,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 151470,
+      "complete": true,
+      "spent": 126,
+      "remaining": 14,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 23.833333333333677,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 11,
+          "time": 27.300000000000516,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 93,
+          "funds": 47,
+          "recruited": 6,
+          "deployed": 17,
+          "survivors": 12,
+          "time": 36.166666666667176,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 126,
+          "funds": 14,
+          "recruited": 8,
+          "deployed": 20,
+          "survivors": 13,
+          "time": 65.56666666666551,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 159389,
+      "complete": true,
+      "spent": 103,
+      "remaining": 37,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 8,
+          "time": 17.5666666666667,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 58,
+          "funds": 82,
+          "recruited": 6,
+          "deployed": 14,
+          "survivors": 13,
+          "time": 24.66666666666705,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 74,
+          "funds": 66,
+          "recruited": 4,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 34.066666666667295,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 103,
+          "funds": 37,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 9,
+          "time": 64.93333333333221,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 167308,
+      "complete": true,
+      "spent": 114,
+      "remaining": 26,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 8,
+          "time": 20.366666666666838,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 58,
+          "funds": 82,
+          "recruited": 6,
+          "deployed": 14,
+          "survivors": 11,
+          "time": 27.53333333333386,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 85,
+          "funds": 55,
+          "recruited": 6,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 33.66666666666732,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 114,
+          "funds": 26,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 13,
+          "time": 61.56666666666573,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 175227,
+      "complete": true,
+      "spent": 119,
+      "remaining": 21,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 8,
+          "time": 20.400000000000173,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 58,
+          "funds": 82,
+          "recruited": 6,
+          "deployed": 14,
+          "survivors": 10,
+          "time": 30.166666666667325,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 90,
+          "funds": 50,
+          "recruited": 7,
+          "deployed": 17,
+          "survivors": 13,
+          "time": 32.466666666667386,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 119,
+          "funds": 21,
+          "recruited": 7,
+          "deployed": 20,
+          "survivors": 13,
+          "time": 59.59999999999918,
+          "idleTail": 0
+        }
+      ]
+    },
+    {
+      "seed": 183146,
+      "complete": true,
+      "spent": 115,
+      "remaining": 25,
+      "stages": [
+        {
+          "mission": "tranquility",
+          "win": true,
+          "spent": 26,
+          "funds": 114,
+          "recruited": 8,
+          "deployed": 8,
+          "survivors": 6,
+          "time": 24.366666666667037,
+          "idleTail": 0
+        },
+        {
+          "mission": "craters",
+          "win": true,
+          "spent": 65,
+          "funds": 75,
+          "recruited": 8,
+          "deployed": 14,
+          "survivors": 11,
+          "time": 28.166666666667226,
+          "idleTail": 0
+        },
+        {
+          "mission": "relay",
+          "win": true,
+          "spent": 93,
+          "funds": 47,
+          "recruited": 6,
+          "deployed": 17,
+          "survivors": 14,
+          "time": 31.100000000000705,
+          "idleTail": 0
+        },
+        {
+          "mission": "bastion",
+          "win": true,
+          "spent": 115,
+          "funds": 25,
+          "recruited": 6,
+          "deployed": 20,
+          "survivors": 11,
+          "time": 63.233333333332304,
+          "idleTail": 0
+        }
+      ]
+    }
+  ]
+}
